@@ -1,0 +1,46 @@
+/*
+  Blog Styles
+*/
+
+/*
+  Tags
+*/
+a {
+  text-decoration: none;
+}
+
+article {
+  flex: 1 1 50%;
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+article h2 {
+  text-transform: capitalize;
+  border-bottom: thin solid;
+}
+
+article p {
+  margin-top: 0.5rem;
+}
+
+footer {
+  position: fixed;
+  inset: 0;
+  top: calc(100% - 5rem);
+}
+
+li {
+  margin: 1rem;
+}
+
+main {
+  flex-direction: column;
+  gap: 1em;
+  padding: 1rem;
+  height: calc(100vh - 11rem);
+  overflow-y: scroll;
+}
